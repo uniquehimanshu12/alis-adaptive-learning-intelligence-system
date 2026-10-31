@@ -1,0 +1,6 @@
+{
+  "name": "ALIS — Adaptive Learning Intelligence System",
+  "description": "An immersive, interactive Physics learning platform combining real-time experimental laboratories with adaptive cognitive modeling and misconception diagnosis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
