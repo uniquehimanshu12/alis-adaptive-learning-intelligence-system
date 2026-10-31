@@ -1,7 +1,11 @@
 import express, { Request, Response } from 'express';
 import { createServer as createViteServer } from 'vite';
 import dotenv from 'dotenv';
-import path from 'path';
+import path, { dirname } from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 import { GoogleGenAI, Type } from '@google/genai';
 import { getStrictSimulationForQuery, SIMULATION_REGISTRY } from './src/data/simulationRegistry';
 
